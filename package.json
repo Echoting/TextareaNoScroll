@@ -1,6 +1,6 @@
 {
   "name": "textarea-no-scroll",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "files": [
@@ -16,7 +16,6 @@
     "test": "./node_modules/.bin/jest",
     "build": "webpack --env.NODE_ENV=production",
     "dev": "webpack-dev-server",
-
     "release:patch": "npm version patch && npm publish && git push --follow-tags",
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
     "release:major": "npm version major && npm publish && git push --follow-tags"
