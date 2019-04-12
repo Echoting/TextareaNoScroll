@@ -15,7 +15,11 @@
     "changelog": "./node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "test": "./node_modules/.bin/jest",
     "build": "webpack --env.NODE_ENV=production",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+
+    "release:patch": "npm version patch && npm publish && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish && git push --follow-tags",
+    "release:major": "npm version major && npm publish && git push --follow-tags",
   },
   "repository": {
     "type": "git"
