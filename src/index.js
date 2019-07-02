@@ -7,12 +7,11 @@ import {observer} from 'mobx-react';
 import PropTypes from 'prop-types';
 import h from './react-helper';
 import c from './classname';
-import compStyle from './style.use.less';
+
 import getCaretCoordinates from 'textarea-caret';
 import uncontrolled from '@rcp/hoc.uncontrolled';
 
-import './style.use.less';
-
+// eslint-disable-next-line
 @uncontrolled(['value'])
 export default class TextareaNoScroll extends Component {
     static propTypes = {
