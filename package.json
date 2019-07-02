@@ -8,7 +8,6 @@
   ],
   "scripts": {
     "cs": "./node_modules/.bin/eslint --fix .",
-    "precommit": "lint-staged",
     "commit": "./node_modules/.bin/git-cz",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "version": "npm run changelog && git add CHANGELOG.md",
