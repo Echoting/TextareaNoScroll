@@ -9,7 +9,6 @@
   "scripts": {
     "cs": "./node_modules/.bin/eslint --fix .",
     "commit": "./node_modules/.bin/git-cz",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
     "version": "npm run changelog && git add CHANGELOG.md",
     "changelog": "./node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "test": "./node_modules/.bin/jest --config ./jest.config.js",
