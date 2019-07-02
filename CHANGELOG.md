@@ -1,5 +1,5 @@
-<a name="0.0.2"></a>
-## 0.0.2 (2019-06-30)
+<a name="0.0.3"></a>
+## 0.0.3 (2019-07-02)
 
 
 ### Bug Fixes
@@ -12,6 +12,8 @@
 
 * 处理jsx文件类型 ([dda9212](https://github.com/Echoting/TextareaNoScroll/commit/dda9212))
 * 增加release命令 ([7aa52ca](https://github.com/Echoting/TextareaNoScroll/commit/7aa52ca))
+* add jest ([f752496](https://github.com/Echoting/TextareaNoScroll/commit/f752496))
+* version命令 ([0cf4e80](https://github.com/Echoting/TextareaNoScroll/commit/0cf4e80))
 
 
 
