@@ -1,5 +1,5 @@
 <a name="0.0.3"></a>
-## 0.0.3 (2019-07-02)
+## [0.0.3](https://github.com/Echoting/TextareaNoScroll/compare/dda9212...v0.0.3) (2019-07-02)
 
 
 ### Bug Fixes
