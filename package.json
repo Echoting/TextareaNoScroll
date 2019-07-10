@@ -1,6 +1,6 @@
 {
   "name": "textarea-no-scroll",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "files": [
@@ -8,19 +8,15 @@
   ],
   "scripts": {
     "cs": "./node_modules/.bin/eslint --fix .",
-
     "commit": "./node_modules/.bin/git-cz",
     "precommit": "npm run test",
-
     "preversion": "exit 0",
     "version": "npm run changelog && git add CHANGELOG.md",
     "postversion": "git push && git push --tags",
-
     "changelog": "./node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "test": "./node_modules/.bin/jest --config ./jest.config.js",
     "build": "webpack --env.NODE_ENV=production",
     "dev": "webpack-dev-server",
-
     "prepublishOnly ": "npm run build"
   },
   "repository": {

@@ -1,3 +1,8 @@
+<a name="0.0.7"></a>
+## [0.0.7](https://github.com/Echoting/TextareaNoScroll/compare/v0.0.6...v0.0.7) (2019-07-10)
+
+
+
 <a name="0.0.6"></a>
 ## [0.0.6](https://github.com/Echoting/TextareaNoScroll/compare/v0.0.5...v0.0.6) (2019-07-10)
 
