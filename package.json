@@ -12,6 +12,7 @@
     "precommit": "npm run test",
     "preversion": "exit 0",
     "version": "npm run changelog && git add CHANGELOG.md",
+    "postversion": "git push && git push --tags",
     "changelog": "./node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "test": "./node_modules/.bin/jest --config ./jest.config.js",
     "build": "webpack --env.NODE_ENV=production",
