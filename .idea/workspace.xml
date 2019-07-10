@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea5be1c3-739f-4b2e-b700-df286f6b8986" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/classname.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/classname.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
@@ -265,7 +264,7 @@
       <workItem from="1562067657684" duration="1519000" />
       <workItem from="1562237123478" duration="855000" />
       <workItem from="1562322273615" duration="640000" />
-      <workItem from="1562741480278" duration="307000" />
+      <workItem from="1562741480278" duration="367000" />
     </task>
     <servers />
   </component>
@@ -302,7 +301,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24570000" />
+    <option name="totallyTimeSpent" value="24630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
