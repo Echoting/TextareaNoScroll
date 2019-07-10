@@ -1,14 +1,12 @@
 const path = require('path');
-const nodeExternals = require('webpack-node-externals');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'production',
+    mode: 'development',
     entry: './demo/test-entry.js',
     output: {
         filename: 'demo.[hash].js',
         path: path.resolve(__dirname, '../public'),
-        libraryTarget: 'commonjs2'
     },
     module: {
         rules: [
@@ -18,7 +16,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/react']
+                        presets: ['@babel/env', '@babel/react']
                     }
                 }
             },
@@ -44,13 +42,13 @@ module.exports = {
             },
         ]
     },
-
+    devServer: {
+        contentBase: './public'
+    },
     plugins: [
-        new HtmlWebpackPlugin({
-
-            filename: path.resolve(__dirname, '../public/index.html'),
-        }),
+        new htmlWebpackPlugin({
+            template: 'demo/index.html',
+            filename: path.resolve(__dirname, '../public/index.html')
+        })
     ],
-
-    externals: [nodeExternals()]
 };
