@@ -15,7 +15,8 @@
     "postversion": "git push && git push --tags",
     "changelog": "./node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "test": "./node_modules/.bin/jest --config ./jest.config.js",
-    "build": "webpack --env.NODE_ENV=production",
+    "build": "rimraf dist && npm run demo && webpack --env.NODE_ENV=production",
+    "demo": "rimraf public && webpack --config webpack/demo.config.js",
     "dev": "webpack-dev-server",
     "prepublishOnly ": "npm run build"
   },

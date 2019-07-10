@@ -4,10 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'production',
-    entry: './src/index.js',
+    entry: './demo/test-entry.js',
     output: {
-        filename: 'bundle.[hash].js',
-        path: path.resolve(__dirname, '../dist'),
+        filename: 'demo.[hash].js',
+        path: path.resolve(__dirname, '../public'),
         libraryTarget: 'commonjs2'
     },
     module: {
@@ -44,6 +44,13 @@ module.exports = {
             },
         ]
     },
+
+    plugins: [
+        new HtmlWebpackPlugin({
+
+            filename: path.resolve(__dirname, '../public/index.html'),
+        }),
+    ],
 
     externals: [nodeExternals()]
 };
