@@ -6,7 +6,7 @@
  *  
  *
  * @file   This files defines the  main class.
- * @author teeeemoji.
+ * @author zhuting.
  * @since 2019/4/12
  */
 

@@ -18,13 +18,13 @@
     "build": "rimraf dist && npm run demo && webpack --env.NODE_ENV=production",
     "demo": "rimraf public && webpack --config webpack/demo.config.js",
     "dev": "webpack-dev-server",
-    "prepublishOnly ": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git"
   },
   "keywords": [],
-  "author": "teeeemoji",
+  "author": "zhuting",
   "license": "ISC",
   "dependencies": {
     "react": "^16.8.6",

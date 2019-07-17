@@ -6,7 +6,7 @@
  *  This is the main test file
  *
  * @file   This main test file for class .
- * @author teeeemoji.
+ * @author zhuting.
  * @since 2019/4/12
  */
 
