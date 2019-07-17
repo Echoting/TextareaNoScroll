@@ -1,3 +1,23 @@
+<a name="0.0.8"></a>
+## [0.0.8](https://github.com/Echoting/TextareaNoScroll/compare/v0.0.7...v0.0.8) (2019-07-17)
+
+
+### Bug Fixes
+
+* 修改部署branch ([f344636](https://github.com/Echoting/TextareaNoScroll/commit/f344636))
+* branch change ([bce2cb9](https://github.com/Echoting/TextareaNoScroll/commit/bce2cb9))
+* name ([9bd1c20](https://github.com/Echoting/TextareaNoScroll/commit/9bd1c20))
+
+
+### Features
+
+* 修改branch ([18ded94](https://github.com/Echoting/TextareaNoScroll/commit/18ded94))
+* 增加travis ci部署 ([17dc081](https://github.com/Echoting/TextareaNoScroll/commit/17dc081))
+* demo的环境修改 ([5b7cf72](https://github.com/Echoting/TextareaNoScroll/commit/5b7cf72))
+* travis ci部署 ([778caab](https://github.com/Echoting/TextareaNoScroll/commit/778caab))
+
+
+
 <a name="0.0.7"></a>
 ## [0.0.7](https://github.com/Echoting/TextareaNoScroll/compare/v0.0.6...v0.0.7) (2019-07-10)
 
